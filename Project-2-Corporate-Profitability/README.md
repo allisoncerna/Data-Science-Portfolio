@@ -59,6 +59,12 @@ After getting the data cleaned up, I really wanted to dive in and see what was a
 ![SQL Results for Markdown Analysis](images/Problem_3.png)
 ---
 
+### Pro-Tip: The Iterative Process
+
+While building the visualizations in Phase 3, I realized that seeing brand-level data wasn't enough to find the specific "profit leaks" I was looking for. I needed to see exactly which product types were causing issues. I went back to MySQL to refine my query, adding the **category** column to the `SELECT` and `GROUP BY` statements. This allowed me to create the granular heatmap in my final dashboard, which eventually revealed the specific issues within footwear and dresses.
+
+![SQL Results for Markdown Analysis](images/problem3_updated)
+
 ## Phase 3: Interactive Corporate Dashboard
 
 For the final stage of this project, I translated my SQL results into a professional, interactive dashboard using Tableau Public. I wanted to move beyond static numbers and create a tool that allows stakeholders to visualize brand performance, identify operational risks, and evaluate pricing strategies in real-time.
