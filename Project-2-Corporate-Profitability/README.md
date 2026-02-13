@@ -9,7 +9,7 @@ The raw dataset for this project was "messy," meaning it had structural issues a
 * **Standardizing Dates:** MySQL requires a specific `YYYY-MM-DD` format to read dates correctly. I used **Custom Excel Formatting** to convert the original dates into this standard, preventing the database from rejecting the records. A.K.A Data Normalization
 * **Handling Missing Data:** I found **362 rows with missing customer ratings**. Rather than deleting them and losing valuable information, I filled them with **0**. This ensured the dataset was complete and that every row met the numeric requirements of the database. (A.K.A Data Imputation) 
 * **Pruning "Ghost" Rows:** I cleared out over **37,000 empty rows** at the bottom of the Excel file. This significantly reduced the file size and made the database import much faster. (A.K.A Data Cleaning)
-* **Record Verification:** After clearing out some accidental duplicates with a `TRUNCATE` command, I successfully verified a clean production set of **2,175 records**. (A.K.A Data Validation)
+* **Record Verification:** After clearing out some accidental duplicates with a `TRUNCATE` command, I successfully verified a clean production set of **2,175 records** (excluding headers). (A.K.A Data Validation)
 
 ### **Current SQL Architecture**
 ```sql
