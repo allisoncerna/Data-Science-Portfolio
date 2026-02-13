@@ -78,4 +78,4 @@ To identify specific "profit leaks," I built a heatmap that cross-references bra
 ### Pricing Efficiency Matrix
 The most strategic part of the dashboard is this quadrant analysis, which plots brand popularity against markdown percentages. By visualizing this relationship, I was able to identify Uniqlo as our most efficient brand—maintaining high customer satisfaction without relying on heavy discounts. This proves that high product value can drive margins more effectively than aggressive pricing cuts.
 
-👉 **[View the Live Corporate Dashboard Here]((https://public.tableau.com/views/CorporateRetailStrategyPerformanceAnalysis_2026/CorporateRetailPerformanceStrategyOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
+👉 **[View the Live Corporate Dashboard Here](https://public.tableau.com/views/CorporateRetailStrategyPerformanceAnalysis_2026/CorporateRetailPerformanceStrategyOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
