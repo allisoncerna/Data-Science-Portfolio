@@ -76,6 +76,6 @@ I developed a high-level leaderboard to compare customer satisfaction scores acr
 To identify specific "profit leaks," I built a heatmap that cross-references brands with product categories. This visual was a game-changer because it pinpointed a major outlier: Ann Taylor shoes. Being able to spot a specific high-risk category like this allows a business to address sizing or quality issues before they eat into the bottom line.
 
 ### Pricing Efficiency Matrix
-The most strategic part of the dashboard is this quadrant analysis, which plots brand popularity against markdown percentages. By visualizing this relationship, I was able to identify Uniqlo as our most efficient brand—maintaining high customer satisfaction without relying on heavy discounts. This proves that high product value can drive margins more effectively than aggressive pricing cuts.
+The most strategic part of the dashboard is this quadrant analysis, which plots brand popularity against markdown percentages. By visualizing this relationship, I was able to identify Uniqlo as our most efficient brand, maintaining high customer satisfaction without relying on heavy discounts. This proves that high product value can drive margins more effectively than aggressive pricing cuts.
 
 👉 **[View the Live Corporate Dashboard Here](https://public.tableau.com/views/CorporateRetailStrategyPerformanceAnalysis_2026/CorporateRetailPerformanceStrategyOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
