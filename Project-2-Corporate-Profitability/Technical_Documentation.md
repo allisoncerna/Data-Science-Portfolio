@@ -64,6 +64,9 @@ After getting the data cleaned up, I really wanted to dive in and see what was a
 While building the visualizations in Phase 3, I realized that seeing brand-level data wasn't enough to find the specific "profit leaks" I was looking for. I needed to see exactly which product types were causing issues. I went back to MySQL to refine my query, adding the **category** column to the `SELECT` and `GROUP BY` statements. This allowed me to create the granular heatmap in my final dashboard, which eventually revealed the specific issues within footwear and dresses.
 
 ![SQL Results for Markdown Analysis](images/problem3_updated.png)
+
+The biggest change in this project came when I shifted from basic brand summaries to analyzing trends over time. I realized that looking at total numbers wasn't giving me the full story; to find the actual "profit leaks," I had to see when these issues were popping up. Adding purchase_date to my SQL queries allowed me to track daily changes and distinguish between a one-time issue and a real trend that we need to fix.
+
 ![SQL Results for Markdown Analysis](images/Profit_Leak.png)
 
 ## Phase 3: Interactive Corporate Dashboard
