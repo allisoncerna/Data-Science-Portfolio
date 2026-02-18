@@ -67,7 +67,7 @@ While building the visualizations in Phase 3, I realized that seeing brand-level
 
 The biggest change in this project came when I shifted from basic brand summaries to analyzing trends over time. I realized that looking at total numbers wasn't giving me the full story; to find the actual "profit leaks," I had to see when these issues were popping up. Adding purchase_date to my SQL queries allowed me to track daily changes and distinguish between a one-time issue and a real trend that we need to fix.
 
-![SQL Results for Markdown Analysis](images/Profit_Leak.png)
+![SQL Results for Markdown Analysis](images/Pricing_Efficency_Matrix.png)
 
 ## Phase 3: Interactive Corporate Dashboard
 
