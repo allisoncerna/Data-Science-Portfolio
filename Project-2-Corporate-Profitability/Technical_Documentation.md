@@ -41,14 +41,14 @@ After getting the data cleaned up, I really wanted to dive in and see what was a
 **Technical Solution:** I used the `NULLIF` function to exclude those zeros from the average so I could get a much more honest look at the scores.  
 **Key Finding:** **Uniqlo** is the clear winner for quality with a **3.11/5 rating**! It really proves that their "LifeWear" strategy for high-quality basics is exactly what customers are looking for.
 
-![SQL Results for Brand Ratings](images/Problem1.png)
+![SQL Results for Brand Ratings](images/The_Satisfaction_Gap.png)
 
 ### 2. The "Profit Leak" (Return Rate Analysis)
 **Business Problem:** High revenue numbers are great, but they can hide the super high cost of returns and shipping, which totally eats into profit.  
 **Technical Solution:** I used some conditional `CASE WHEN` logic to calculate the return rate percentage for every brand.  
 **Key Finding:** **Ann Taylor** actually has a pretty big profit leak with a **19.8% return rate**. Since people are still giving them high ratings, it tells me that customers love the clothes, but they’re probably struggling with sizing consistency in those tailored categories.
 
-![SQL Results for Return Rates](images/Problem2.png)
+![SQL Results for Return Rates](images/Profit_Leak.png)
 
 ### 3. The "Discount Trap" (Markdown Efficiency)
 **Business Problem:** I wanted to see if we’re losing money by discounting items that people would’ve happily bought at full price anyway.  
